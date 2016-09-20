@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimun-scale=1,user-scalable=no">
+	<!-- 禁止ios设备将数字作为拨号器链接，邮箱自动发送，点击地图跳转 -->
+	<meta name="format-detection" content="telephone=no,email=no,address=no">
+	<!-- 强制全屏显示 -->
+	<meta name="full-screen" content="yes">
+	<!-- 开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- web app应用下状态条（屏幕顶部条）的颜色，默认值为default（白色） -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- 禁止浏览器从的缓存中访问页面内容 -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="set_main">
+		<header class="set_header"><span id="return"><</span>设置</header>
+		<div class="main_cont set_con">
+			<ul>
+				<li><a href="#">关注列表</a></li>
+				<li class="null" id="m"><a href="#">个人资料</a></li>
+				<li><a href="#">邀请好友</a></li>
+				<li class="null"><a href="#">关于抹茶</a></li>
+				<li><a href="#">消息通知</a></li>
+				<li><a href="#">清除缓存34.68MB</a></li>
+				<li class="null"><a href="#">绑定手机<span>137474747</span></a></li>
+				<li class="exit"><a href="#">退出</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script>
+		document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+"px";
+	</script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

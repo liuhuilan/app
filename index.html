@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimun-scale=1,user-scalable=no">
+	<!-- 禁止ios设备将数字作为拨号器链接，邮箱自动发送，点击地图跳转 -->
+	<meta name="format-detection" content="telephone=no,email=no,address=no">
+	<!-- 强制全屏显示 -->
+	<meta name="full-screen" content="yes">
+	<!-- 开启对web app的支持 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- web app应用下状态条（屏幕顶部条）的颜色，默认值为default（白色） -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- 禁止浏览器从的缓存中访问页面内容 -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- 引导页 -->
+	<div class="lead swiper-container">
+		<ul class="swiper-wrapper">
+			<li class="swiper-slide">
+				<img src="images/lead1.png" class='pic11'>
+				<img src="images/lead11.png" class="pic1">
+			</li>
+			<li class="swiper-slide">
+				<img src="images/lead2.png" class='pic22'>
+				<img src="images/lead22.png" class="pic2">
+			</li>
+			<li class="swiper-slide">
+				<img src="images/lead3.png" class='pic33'>
+				<img src="images/lead33.png" class="pic3">
+			</li>
+			<li class="swiper-slide">
+				<img src="images/start.png" class="start">
+				<p>带你开启美丽时代</p>
+				<a href="#" id="dl">立即登录</a>
+			</li>
+		</ul>
+		 <div class="swiper-pagination"></div>
+	</div>
+
+
+
+
+	<!-- 首页 -->
+	<div class="main">
+		<header class="header" id="one">
+			<ul class="nav">
+				<li><a href="#gz">关注</a></li>
+				<li class="xian"><a href="#tt">头条</a></li>
+				<li><a href="#hf">护肤</a></li>
+				<li><a href="#cz">彩妆</a></li>
+				<li><a href="#ss">时尚</a></li>
+				<li><a href="#zt">专题</a></li>
+				<li><a href="#"><i class="fa fa-search"></i></a></li>
+			</ul>
+		</header>
+		<header class="header" id="two">
+			<ol class="nav">
+				<li class="xian"><a href="#jx">精选</a></li>
+				<li><a href="#zx">最新</a></li>
+				<li><a href="#zr">最热</a></li>
+			</ol>
+		</header>
+		<header class="header" id="three">
+			<p><input type="text" value="妆品/帖子/茶友/视频"><img src="images/shop.png"></p>
+		</header>
+		<header class="header" id="four">
+			<span id="close">X</span>
+		</header>
+		<header class="header" id="five">
+			<h1><img src="images/setting.png" id="set">我的主页</h1>
+		</header>
+		<div class="main_con">
+			<div class="main_cont shouye" id="shouye">
+				<div class="shouye_con tt gz" id="gz">
+					<img src="images/gz (3).jpg" class="banner">
+					<div class="tu">
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu1.png"></dt>
+								<dd>
+									<h6 class="co1">学化妆</h6>
+									<p>新手教程</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu2.png"></dt>
+								<dd>
+									<h6 class="co2">签到</h6>
+									<p>登录并签到</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu3.png"></dt>
+								<dd>
+									<h6 class="co3">免费试用</h6>
+									<p>倩碧净透神水</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu4.png"></dt>
+								<dd>
+									<h6 class="co4">抹茶大赏</h6>
+									<p>美白精华测评</p>
+								</dd>
+							</dl>
+						</a>
+					</div>
+					<div class="hmm">
+						<p><span><img src="images/head.png"><b>韩美美</b></span><a href="#">+关注</a></p>
+						<img src="images/gz (4).jpg" class="banner">
+					</div>
+				</div>
+				<div class="shouye_con tt" id="tt">
+					<img src="images/banner.png" class="banner">
+					<div class="tu">
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu1.png"></dt>
+								<dd>
+									<h6 class="co1">学化妆</h6>
+									<p>新手教程</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu2.png"></dt>
+								<dd>
+									<h6 class="co2">签到</h6>
+									<p>登录并签到</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu3.png"></dt>
+								<dd>
+									<h6 class="co3">免费试用</h6>
+									<p>倩碧净透神水</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/tu4.png"></dt>
+								<dd>
+									<h6 class="co4">抹茶大赏</h6>
+									<p>美白精华测评</p>
+								</dd>
+							</dl>
+						</a>
+					</div>
+					<div class="hmm">
+						<p><span><img src="images/head.png"><b>韩美美</b></span><a href="#">+关注</a></p>
+						<img src="images/img.png" class="banner">
+					</div>
+				</div>
+				<div class="shouye_con hf" id="hf">
+					<div class="list">
+						<dl>
+							<dt><img src="images/q1.png"></dt>
+							<dd>全部</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q2.png"></dt>
+							<dd>保湿</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q3.png"></dt>
+							<dd>美白</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q4.png"></dt>
+							<dd>紧致</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q5.png"></dt>
+							<dd>防晒</dd>
+						</dl>
+					</div>
+					<div class="lists">
+						<dl>
+							<dt><img src="images/img1.png"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>科学养父，面部刮痧学起来</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/img2.png"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>科学养父，面部刮痧学起来</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/img1.png"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>科学养父，面部刮痧学起来</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/img2.png"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>科学养父，面部刮痧学起来</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="shouye_con hf cz" id="cz">
+					<div class="list">
+						<dl>
+							<dt><img src="images/q1.png"></dt>
+							<dd>全部</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q2.png"></dt>
+							<dd>隔离</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q3.png"></dt>
+							<dd>眼影</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q4.png"></dt>
+							<dd>口红</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/q5.png"></dt>
+							<dd>防晒</dd>
+						</dl>
+					</div>
+					<div class="lists">
+						<dl>
+							<dt><img src="images/cz (1).jpg"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p> 化彩妆的程序和技巧</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/cz (2).jpg"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>化彩妆的程序和技巧</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/cz (1).jpg"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>化彩妆的程序和技巧</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/cz (2).jpg"></dt>
+							<dd>
+								<img src="images/head.png">
+								<p>化彩妆的程序和技巧</p>
+								<p class="eye"><i class="fa fa-eye"></i>10327</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="shouye_con zt ss" id="ss">
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/img3.png" class="banner1">
+						<p class='gr'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i></p>
+						<p class="pl">
+							<span>拽丫头：</span>娱乐圈九点十分是东方会计师 啥地方就看电视大发开始交电费就发生技术的圣诞节啊看见对方减肥可接受的
+						</p>
+					</div>
+				</div>
+				<div class="shouye_con zt" id="zt">
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/img3.png" class="banner1">
+						<p class='gr'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i></p>
+						<p class="pl">
+							<span>拽丫头：</span>娱乐圈九点十分是东方会计师 啥地方就看电视大发开始交电费就发生技术的圣诞节啊看见对方减肥可接受的
+						</p>
+					</div>
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/img3.png" class="banner1">
+						<p class='gr'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i></p>
+						<p class="pl">
+							<span>拽丫头：</span>娱乐圈九点十分是东方会计师 啥地方就看电视大发开始交电费就发生技术的圣诞节啊看见对方减肥可接受的
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="main_cont tea" id="tea">
+				<div class="tea_con jx" id="jx">
+					<img src="images/jxban.png" class="banner">
+					<h6><span>查看更多</span>茶社互动</h6>
+					<div class="act">
+						<a href="#">
+							<dl>
+								<dt><img src="images/jx.png"></dt>
+								<dd>
+									<p>官方活动</p>
+									<p class="lit">种菜是前戏</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/jx1.png"></dt>
+								<dd>
+									<p>免费试用</p>
+									<p class="lit">谜尚眼影棒</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/jx2.png"></dt>
+								<dd>
+									<p>无敌证件照</p>
+									<p class="lit">最佳上镜脸</p>
+								</dd>
+							</dl>
+						</a>
+						<a href="#">
+							<dl>
+								<dt><img src="images/jx3.png"></dt>
+								<dd>
+									<p>草坪-巴兰妮</p>
+									<p class="lit">谜尚眼影棒</p>
+								</dd>
+							</dl>
+						</a>
+					</div>
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/jxbanner.png" class="banner1">
+					</div>
+				</div>
+				<div class="tea_con zx" id="zx">
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/new1.png" class="banner1">
+						<p class='gr'><i class="fa fa-tag"></i>昔日么么哒</p>
+						<p class='gr gry'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i></p>
+					</div>
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<img src="images/new2.png" class="banner1">
+						<p class='gr'><i class="fa fa-tag"></i>昔日么么哒</p>
+						<p class='gr'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i></p>
+					</div>
+				</div>
+				<div class="tea_con zr" id="zr">
+					<img src="images/hotbanner.png" class="banner">
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head.png"></dt>
+							<dd>
+								<p>二十20</p>
+								<p class='lit'>4小时前 梦伴呀</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<h3>【说说】你最近都追了那些电视剧</h3>
+						<div class="tu">
+							<img src="images/hota.png">
+							<img src="images/hoti.png">
+							<img src="images/hotl.png">
+							<img src="images/hota.png">
+						</div>
+						<p class='gr'><i class="fa fa-tag"></i>说说电视剧</p>
+						<p class='gr gry'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i>345</p>
+					</div>
+					<div class='jx_gz'>
+						<dl>
+							<dt><img src="images/head2.png"></dt>
+							<dd>
+								<p>韩美美</p>
+								<p class='lit'>一天前 许你一世相守</p>
+								<a href="#">关注</a>
+							</dd>
+						</dl>
+						<h3>提前种草。the baeutools清洁以，加斯的风景 </h3>
+						<div class="tu">
+							<img src="images/hot1.png">
+							<img src="images/hot2.png">
+							<img src="images/hot3.png">
+							<img src="images/hot4.png">
+						</div>
+						<p class='gr'><i class="fa fa-tag"></i>提前种草</p>
+						<p class='gr gry'><i class="fa fa-eye"></i>10666<i class="fa fa-comments-o"></i>345</p>
+					</div>
+				</div>
+			</div>
+			<div class="main_cont fabu" id="fabu">
+				<h1>抹茶美妆</h1>
+				<p>最火视频美妆社区</p>
+				<p>抹和搽的一切，[都在抹茶</p>
+				<div class="fa">
+					<img src="images/fa1.png">
+					<img src="images/fa2.png">
+					<img src="images/fa3.png">
+					<img src="images/fa4.png">
+				</div>
+			</div>
+			<div class="main_cont buy" id="buy">
+				<ul class="buy_nav">
+					<li><a href="#qb">全部</a></li>
+					<li><a href="#mm">面膜</a></li>
+					<li><a href="#jm">洁面卸妆</a></li>
+					<li><a href="#sr">水乳面霜</a></li>
+					<li><a href="#mb">美白祛痘</a></li>	
+				</ul>
+				<div class="buy_cons">
+					<div class="buy_con qb" id="qb">
+						<img src="images/zdbanner.png" class="banner">
+						<div class="zd">
+							<dl>
+								<dt><img src="images/zd(3).png"></dt>
+								<dd>
+									<p>神奇精华液</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(2).png"></dt>
+								<dd>
+									<p>肌肤隐形防护霜</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(1).png"></dt>
+								<dd>
+									<p>敏感油皮看过来</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+						</div>
+						<img src="images/zd1.png" class="banner">
+					</div>
+					<div class="buy_con mm" id="mm">
+						<img src="images/zdbanner.png" class="banner">
+						<div class="zd">
+							<dl>
+								<dt><img src="images/zd(3).png"></dt>
+								<dd>
+									<p>神奇精华液</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(2).png"></dt>
+								<dd>
+									<p>肌肤隐形防护霜</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(1).png"></dt>
+								<dd>
+									<p>敏感油皮看过来</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+						</div>
+						<img src="images/zd1.png" class="banner">
+					</div>
+					<div class="buy_con jm" id='jm'><img src="images/zdbanner.png" class="banner">
+						<div class="zd">
+							<dl>
+								<dt><img src="images/zd(3).png"></dt>
+								<dd>
+									<p>神奇精华液</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(2).png"></dt>
+								<dd>
+									<p>肌肤隐形防护霜</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(1).png"></dt>
+								<dd>
+									<p>敏感油皮看过来</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+						</div>
+						<img src="images/zd1.png" class="banner"></div>
+					<div class="buy_con sr" id='sr'><img src="images/zdbanner.png" class="banner">
+						<div class="zd">
+							<dl>
+								<dt><img src="images/zd(3).png"></dt>
+								<dd>
+									<p>神奇精华液</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(2).png"></dt>
+								<dd>
+									<p>肌肤隐形防护霜</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(1).png"></dt>
+								<dd>
+									<p>敏感油皮看过来</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+						</div>
+						<img src="images/zd1.png" class="banner"></div>
+					<div class="buy_con mb" id='mb'><img src="images/zdbanner.png" class="banner">
+						<div class="zd">
+							<dl>
+								<dt><img src="images/zd(3).png"></dt>
+								<dd>
+									<p>神奇精华液</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(2).png"></dt>
+								<dd>
+									<p>肌肤隐形防护霜</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><img src="images/zd(1).png"></dt>
+								<dd>
+									<p>敏感油皮看过来</p>
+									<p class='red'>￥63<span>￥88</span></p>
+								</dd>
+							</dl>
+						</div>
+						<img src="images/zd1.png" class="banner"></div>
+				</div>
+				
+			</div>
+			<div class='main_cont my' id="my">
+				<img src="images/book.png" class="book">
+				<img src="images/head3.png" class="head3">
+				<img src="images/laba.png" class="laba">
+				<input type="button" value="登录">
+				<div class="list">
+					<dl>
+						<dt><img src="images/buy1.png"></dt>
+						<dd><h6>代言费</h6><p>0元</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="images/buy2.png"></dt>
+						<dd><h6>种草</h6><p>0人</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="images/buy3.png"></dt>
+						<dd><h6>Lv0</h6><p>升级享特权</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="images/buy4.png"></dt>
+						<dd><h6>抹茶币</h6><p>0币</p></dd>
+					</dl>
+					<p class="line"><span>输入兑换码</span><span>赚币任务</span></p>
+				</div>
+				<ul>
+					<li><a href="#"><img src="images/buy_list3.png">地址</a></li>
+					<li><a href="#"><img src="images/buy_list1.png">优惠券</a></li>
+					<li class="none"><a href="#"><img src="images/buy_list4.png">订单</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer class="footer">
+			<nav id="nav">
+				<a href="#shouye" class="light"><i class="fa fa-home"></i><br>首页</a>
+				<a href="#tea"><i class="fa fa-comments"></i><br>茶社</a>
+				<a href="#fabu"><i class="fa fa-camera"></i><br>发布</a>
+				<a href="#buy"><i class="fa fa-calendar-o"></i><br>值得买</a>
+				<a href="#my"><i class="fa fa-female"></i><br>我的</a>
+			</nav>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
+
+
+	<script>
+	var mySwiper=new Swiper(".swiper-container",{
+			pagination: '.swiper-pagination'
+		})
+		document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+"px";
+	</script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
